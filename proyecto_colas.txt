@@ -1,0 +1,74 @@
+PROYECTO: IMPLEMENTACIÓN DE SISTEMA DE COLAS
+=========================================
+
+Descripción General
+------------------
+Desarrollar un sistema que implemente el concepto de estructuras de datos tipo Cola (Queue) en Python para resolver una problemática real donde se requiera gestionar una cola de elementos (clientes, pedidos, procesos, etc.). El sistema debe considerar prioridades y tiempos de espera según el contexto elegido.
+
+Ejemplos de Aplicación
+---------------------
+- Sistema de atención al cliente en un banco
+- Gestión de pedidos en un restaurante
+- Cola de impresión en un centro de copiado
+- Sistema de atención en un consultorio médico
+- Gestión de cola de producción en una fábrica
+- Sistema de reservas en una aerolínea
+- Cola de soporte técnico
+- Cualquier otro contexto que involucre el manejo de colas
+
+Objetivos de Aprendizaje
+------------------------
+1. Implementar una estructura de datos tipo Cola en Python
+2. Aplicar conceptos de programación orientada a objetos
+3. Desarrollar habilidades de modelado de datos para casos reales
+4. Practicar el manejo de dependencias entre clases
+5. Analizar y resolver problemas del mundo real mediante estructuras de datos tales como colas
+
+Requerimientos Funcionales
+-------------------------
+1. Sistema de Cola:
+   - Implementar una cola que almacene los elementos según el contexto elegido
+   - Permitir encolar y desencolar elementos
+   - Mostrar el estado actual de la cola
+   - Calcular y gestionar tiempos de espera
+
+
+2. Gestión de Elementos:
+   - Registrar la información relevante según el contexto
+   - Implementar cálculos específicos necesarios
+   - Mostrar detalles de cada elemento en la cola
+
+Estructura del Proyecto
+----------------------
+El proyecto debe contener las siguientes clases (adaptadas al contexto):
+
+1. Cola:
+   - Implementación de la estructura de cola
+   - Métodos: encolar, desencolar, esta_vacia, ver_elementos
+
+2. Nodo:
+   - Estructura para almacenar elementos en la cola
+   - Referencias al siguiente nodo
+
+3. ElementoCola:
+   - Información específica del elemento según contexto
+   - Gestión de prioridades
+   - Control de tiempo en cola
+
+Entregables
+-----------
+1. Código fuente del proyecto en Python en GitHub
+
+
+Fecha de Entrega y Sustentación
+---------------
+Noviembre 20 de noviembre
+
+Notas Adicionales
+----------------
+- El proyecto debe ser desarrollado individualmente
+- Se valorará positivamente:
+  * La creatividad en la elección del contexto
+  * La implementación de funcionalidades adicionales
+  * La utilidad práctica de la solución propuesta
+  * La claridad en la explicación del problema resuelto

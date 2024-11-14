@@ -8,3 +8,6 @@
 
 ## 3. Diseño de la solución
 ![Diseño de la solución](imagenes/3_disenio_de_la_solucion.jpg)
+
+## 4. Funcionamiento de las colas
+![Diseño de la solución](imagenes/4_funcionamiento_colas.jpg)

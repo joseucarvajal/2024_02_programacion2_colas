@@ -20,3 +20,11 @@ class ListaProducto:
         while nodo_actual != None:
             print(f"Nombre: {nodo_actual.producto.nombre}")
             nodo_actual = nodo_actual.siguiente
+
+    def buscar_producto(self, nombre):
+        actual = self.cabeza
+        while actual:
+            if actual.producto.nombre.lower() == nombre.lower():
+                return actual.producto
+            actual = actual.siguiente
+        return None

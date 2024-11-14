@@ -1,4 +1,4 @@
 class Cliente:
-    def __init__(self, nombre, cedula):
+    def __init__(self, nombre, documento):
         self.nombre = nombre
-        self.cedula = cedula
+        self.documento = documento
